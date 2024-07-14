@@ -35,6 +35,7 @@
         "access": "public"
     },
     "scripts": {
+        "bundle": "npx webpack --config webpack.config.js",
         "artifacts": "napi artifacts",
         "build": "npm run generate && napi build --platform --release",
         "build:jack": "npm run generate && napi build --platform --features jack --release",

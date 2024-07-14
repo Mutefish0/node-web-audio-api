@@ -40,6 +40,7 @@ module.exports = {
     __filename: false,
   },
   optimization: {
+    minimize: false, // 压缩输出
     usedExports: true, // 保留被导出的但未使用的代码
     splitChunks: {
       chunks: "all", // 合并所有模块（包括动态导入的模块）
