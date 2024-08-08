@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   target: "node", // 指定目标为Node.js环境
-  entry: "./index.cjs", // 入口文件
+  entry: "./wrap.cjs", // 入口文件
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "node-web-audio.js", // 输出的文件
